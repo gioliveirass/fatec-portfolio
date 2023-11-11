@@ -1,3 +1,5 @@
+import Start from "./sections/start";
+
 export default function Homepage() {
-  return <p>Olá mundo</p>;
+  return <Start />;
 }
