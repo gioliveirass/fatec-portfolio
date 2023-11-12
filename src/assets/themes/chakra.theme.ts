@@ -17,6 +17,23 @@ const chakraTheme = extendBaseTheme({
         colorScheme: "purple",
       },
     },
+
+    Text: {
+      variants: {
+        sectionTitle: {
+          fontSize: "xl",
+          fontWeight: "bold",
+          textAlign: "center",
+          fontColor: "blackAlpha.900",
+        },
+
+        sectionBody: {
+          fontSize: "md",
+          textAlign: "center",
+          fontColor: "blackAlpha.900",
+        },
+      },
+    },
   },
 });
 

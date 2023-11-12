@@ -5,7 +5,7 @@ import { Box, Center, Text, VStack, Image } from "@chakra-ui/react";
 
 export default function Start() {
   return (
-    <Box w="100vw" h="90vh" bg="whiteAlpha.900">
+    <Box h="90vh" bg="whiteAlpha.900">
       <Center w="100%" h="70%" bg="purple.500" color="whiteAlpha.900">
         <VStack maxW="30rem" spacing="2rem">
           <Text fontSize="xl" as="b">
