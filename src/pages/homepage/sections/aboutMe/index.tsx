@@ -4,7 +4,7 @@ import { skills } from "./constants";
 import { HiPlus } from "react-icons/hi";
 import { Center, Text, VStack, Icon, HStack } from "@chakra-ui/react";
 
-export default function AboutMe() {
+export default function Projects() {
   return (
     <Center h="90vh" bg="whiteAlpha.900" flexDir="column" gap="2rem">
       <VStack spacing="1rem">
