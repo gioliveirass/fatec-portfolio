@@ -11,6 +11,7 @@ export default function Header() {
       position="sticky"
       top="0"
       gap="3rem"
+      zIndex={999}
     >
       <Link cursor="pointer" _hover={{ fontWeight: "bold" }}>
         + Sobre mim

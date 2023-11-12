@@ -88,7 +88,12 @@ export default function Carousel({ cards, width }: CarouselProps) {
             position="relative"
             bg="whiteAlpha.900"
           >
-            <Container size="container.lg" height="600px" position="relative">
+            <Container
+              size="container.lg"
+              height="600px"
+              position="relative"
+              zIndex={"100"}
+            >
               <Center>
                 <Stack
                   spacing={6}
