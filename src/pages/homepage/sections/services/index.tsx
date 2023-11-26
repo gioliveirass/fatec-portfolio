@@ -1,14 +1,20 @@
 import LargeCard from "../../../../components/largeCard";
 
 import { services } from "./constants";
-import { Center, Text, VStack } from "@chakra-ui/react";
+import { Center, Flex, Text } from "@chakra-ui/react";
 
 export default function Services() {
   return (
-    <Center h="90vh" bg="whiteAlpha.900" flexDir="column" gap="2rem">
+    <Center
+      minH="90vh"
+      bg="whiteAlpha.900"
+      flexDir="column"
+      gap="2rem"
+      id="services"
+    >
       <Text variant="sectionTitle">Serviços</Text>
 
-      <VStack spacing={"1.5rem"}>
+      <Flex gap={"1.5rem"} flexDir={"column"}>
         {services.map((service) => (
           <LargeCard
             key={service.id}
@@ -17,7 +23,7 @@ export default function Services() {
             title={service.title}
           />
         ))}
-      </VStack>
+      </Flex>
     </Center>
   );
 }

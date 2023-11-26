@@ -2,11 +2,18 @@ import SmallCard from "../../../../components/smallCard";
 
 import { skills } from "./constants";
 import { HiPlus } from "react-icons/hi";
-import { Center, Text, VStack, Icon, HStack } from "@chakra-ui/react";
+import { Center, Text, VStack, Icon, Flex } from "@chakra-ui/react";
 
 export default function Projects() {
   return (
-    <Center h="90vh" bg="whiteAlpha.900" flexDir="column" gap="2rem">
+    <Center
+      minH="90vh"
+      bg="whiteAlpha.900"
+      flexDir="column"
+      gap="2rem"
+      p="2rem"
+      id="aboutMe"
+    >
       <VStack spacing="1rem">
         <Icon color="blackAlpha.900" boxSize="1.5rem" as={HiPlus} />
         <Text variant="sectionTitle">Sobre mim</Text>
@@ -18,7 +25,7 @@ export default function Projects() {
         nos times que atuo. Aprendo rápido e de forma continua.
       </Text>
 
-      <HStack spacing="1rem">
+      <Flex gap="1rem" flexDir={["column", "column", "column", "row"]}>
         {skills.map((skill) => (
           <SmallCard
             key={skill.id}
@@ -28,7 +35,7 @@ export default function Projects() {
             link={skill.link}
           />
         ))}
-      </HStack>
+      </Flex>
     </Center>
   );
 }

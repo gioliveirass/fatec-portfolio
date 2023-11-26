@@ -17,8 +17,14 @@ import {
 
 export default function Contact() {
   return (
-    <Box h="90vh" bg="purple.500">
-      <Center w="100%" h="70%" bg="white" color="blackAlpha.900">
+    <Box h="90vh" bg="purple.500" id="contact">
+      <Center
+        w="100%"
+        h={["55%", "55%", "70%"]}
+        bg="white"
+        color="blackAlpha.900"
+        p="2rem"
+      >
         <VStack maxW="30rem" spacing="2rem">
           <Text fontSize="xl" as="b">
             Contato
@@ -58,23 +64,48 @@ export default function Contact() {
           <Image src={divider} />
         </Box>
 
-        <HStack spacing={"2rem"}>
-          <Link fontSize="sm" color="whiteAlpha.900" cursor="pointer">
+        <Flex
+          gap={"2rem"}
+          flexDir={["column", "column", "row"]}
+          alignItems={"center"}
+        >
+          <Link
+            fontSize="sm"
+            id="aboutMe"
+            href="#aboutMe"
+            color="whiteAlpha.900"
+            cursor="pointer"
+          >
             Sobre mim
           </Link>
 
-          <Link fontSize="sm" color="whiteAlpha.900" cursor="pointer">
+          <Link
+            fontSize="sm"
+            href="#projects"
+            color="whiteAlpha.900"
+            cursor="pointer"
+          >
             Projetos
           </Link>
 
-          <Link fontSize="sm" color="whiteAlpha.900" cursor="pointer">
+          <Link
+            fontSize="sm"
+            href="#services"
+            color="whiteAlpha.900"
+            cursor="pointer"
+          >
             Serviços
           </Link>
 
-          <Link fontSize="sm" color="whiteAlpha.900" cursor="pointer">
+          <Link
+            fontSize="sm"
+            href="#contact"
+            color="whiteAlpha.900"
+            cursor="pointer"
+          >
             Contato
           </Link>
-        </HStack>
+        </Flex>
       </Center>
     </Box>
   );
