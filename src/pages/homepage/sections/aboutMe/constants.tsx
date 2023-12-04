@@ -30,6 +30,6 @@ export const skills = [
     icon: HiOutlineDocumentText,
     text: "Curriculum",
     reverseColors: true,
-    link: undefined,
+    link: "https://drive.google.com/file/d/1_xK0GTsVoHZ9I6LqzNEDzLVt66NSqyna/view?usp=sharing",
   },
 ];
