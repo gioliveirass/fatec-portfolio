@@ -1,112 +1,39 @@
-import divider from "../../../../assets/images/divider.svg";
-
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineLinkedin, AiFillGithub } from "react-icons/ai";
 
-import {
-  Box,
-  Center,
-  Text,
-  VStack,
-  Image,
-  HStack,
-  Link,
-  Icon,
-  Flex,
-} from "@chakra-ui/react";
+import { Center, Text, VStack, HStack, Icon, Flex } from "@chakra-ui/react";
 
 export default function Contact() {
   return (
-    <Box h="90vh" bg="purple.500" id="contact">
-      <Center
-        w="100%"
-        h={["55%", "55%", "70%"]}
-        bg="white"
-        color="blackAlpha.900"
-        p="2rem"
-      >
-        <VStack maxW="30rem" spacing="2rem">
-          <Text fontSize="xl" as="b">
-            Contato
-          </Text>
-
-          <Text fontSize="md" textAlign="center">
-            Entre em contato comigo através dos e-mail ou, se preferir, me mande
-            uma mensagem através do LinkedIn. Você pode conferir o código-fonte
-            dos projetos no qual atuei no GitHub.
-          </Text>
-
-          <Flex w="100%" flexDir={"column"} gap="1rem">
-            <HStack spacing={"0.5rem"}>
-              <Icon as={HiOutlineMail} />
-              <Text fontSize="md">giothais.os@gmail.com</Text>
-            </HStack>
-
-            <HStack spacing={"0.5rem"}>
-              <Icon as={AiOutlineLinkedin} />
-              <Text fontSize="md">gioliveirass</Text>
-            </HStack>
-
-            <HStack spacing={"0.5rem"}>
-              <Icon as={AiFillGithub} />
-              <Text fontSize="md">gioliveirass</Text>
-            </HStack>
-          </Flex>
-        </VStack>
-      </Center>
-
-      <Center mt="2.5rem" gap="1.5rem" flexDir="column">
-        <Text fontSize="sm" color="whiteAlpha.900" as="b">
-          Giovana Silva's Portfolio
+    <Center minH="60vh" bg="whiteAlpha.900" id="contact" p="2rem">
+      <VStack maxW="30rem" spacing="2rem">
+        <Text fontSize="xl" as="b">
+          Contato
         </Text>
 
-        <Box>
-          <Image src={divider} />
-        </Box>
+        <Text fontSize="md" textAlign="center">
+          Entre em contato comigo através dos e-mail ou, se preferir, me mande
+          uma mensagem através do LinkedIn. Você pode conferir o código-fonte
+          dos projetos no qual atuei no GitHub.
+        </Text>
 
-        <Flex
-          gap={"2rem"}
-          flexDir={["column", "column", "row"]}
-          alignItems={"center"}
-        >
-          <Link
-            fontSize="sm"
-            id="aboutMe"
-            href="#aboutMe"
-            color="whiteAlpha.900"
-            cursor="pointer"
-          >
-            Sobre mim
-          </Link>
+        <Flex w="100%" flexDir={"column"} gap="1rem">
+          <HStack spacing={"0.5rem"}>
+            <Icon as={HiOutlineMail} />
+            <Text fontSize="md">giothais.os@gmail.com</Text>
+          </HStack>
 
-          <Link
-            fontSize="sm"
-            href="#projects"
-            color="whiteAlpha.900"
-            cursor="pointer"
-          >
-            Projetos
-          </Link>
+          <HStack spacing={"0.5rem"}>
+            <Icon as={AiOutlineLinkedin} />
+            <Text fontSize="md">gioliveirass</Text>
+          </HStack>
 
-          <Link
-            fontSize="sm"
-            href="#services"
-            color="whiteAlpha.900"
-            cursor="pointer"
-          >
-            Serviços
-          </Link>
-
-          <Link
-            fontSize="sm"
-            href="#contact"
-            color="whiteAlpha.900"
-            cursor="pointer"
-          >
-            Contato
-          </Link>
+          <HStack spacing={"0.5rem"}>
+            <Icon as={AiFillGithub} />
+            <Text fontSize="md">gioliveirass</Text>
+          </HStack>
         </Flex>
-      </Center>
-    </Box>
+      </VStack>
+    </Center>
   );
 }
