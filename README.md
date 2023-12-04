@@ -40,8 +40,8 @@ Inicie o servidor
 
 A seguir, é possível ver uma demonstração da navegação no portfólio através do computador:
 
-// gif
+![Demo Desktop](https://github.com/gioliveirass/fatec-portfolio/blob/main/.github/demo-desktop.gif?raw=true)
 
 Já em celulares, a navegação deve ser similar ao seguinte:
 
-// gif
+![Demo Mobile](https://github.com/gioliveirass/fatec-portfolio/blob/main/.github/demo-mobile.gif?raw=true)
