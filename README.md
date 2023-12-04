@@ -1,6 +1,8 @@
 # Giovana Silva's Portfolio
 
-Portfolio online desenvolvido para compor a nota final da disciplina Laboratório de Desenvolvimento Multiplataforma ministrada na Fatec SJC.
+Portfólio online desenvolvido para compor a nota final da disciplina Laboratório de Desenvolvimento Multiplataforma ministrada na Fatec SJC.
+
+> Acesse o portfólio clicando [aqui](https://gio-fatec-portfolio.netlify.app/).
 
 ## Tecnologias utilizadas
 
@@ -8,7 +10,8 @@ Portfolio online desenvolvido para compor a nota final da disciplina Laboratóri
 - React com Vite;
 - Yarn;
 - Chakra UI;
-- React Icons.
+- React Icons;
+- Git.
 
 ## Executando localmente
 
