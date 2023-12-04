@@ -34,9 +34,9 @@ export default function Header() {
           Projetos
         </Link>
 
-        <Text as="b" cursor="default">
+        <Link cursor="pointer" href="#start" fontWeight="bold">
           Giovana Silva's Portfolio
-        </Text>
+        </Link>
 
         <Link cursor="pointer" href="#services" _hover={{ fontWeight: "bold" }}>
           Serviços
@@ -60,9 +60,9 @@ export default function Header() {
         display={["flex", "flex", "none"]}
         justifyContent={"space-between"}
       >
-        <Text as="b" cursor="default">
+        <Link cursor="pointer" href="#start" fontWeight="bold">
           Giovana Silva's Portfolio
-        </Text>
+        </Link>
 
         <Menu>
           <MenuButton

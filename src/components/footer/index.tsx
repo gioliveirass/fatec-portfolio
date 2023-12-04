@@ -12,9 +12,15 @@ export default function Footer() {
       flexDir="column"
       p="2rem"
     >
-      <Text fontSize="sm" color="whiteAlpha.900" as="b">
+      <Link
+        fontSize="sm"
+        color="whiteAlpha.900"
+        cursor="pointer"
+        href="#start"
+        fontWeight="bold"
+      >
         Giovana Silva's Portfolio
-      </Text>
+      </Link>
 
       <Box>
         <Image src={divider} />
