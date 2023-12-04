@@ -37,12 +37,7 @@ export default function Carousel({ cards, width }: CarouselProps) {
   const side = useBreakpointValue({ base: "30%", md: "40px" });
 
   return (
-    <Box
-      position={"relative"}
-      height={"600px"}
-      width={width}
-      overflow={"hidden"}
-    >
+    <Box position={"relative"} maxH={"450px"} width={width} overflow={"hidden"}>
       <link
         rel="stylesheet"
         type="text/css"
@@ -90,7 +85,7 @@ export default function Carousel({ cards, width }: CarouselProps) {
           >
             <Container
               size="container.lg"
-              height="600px"
+              height="24rem"
               position="relative"
               zIndex={"100"}
             >
