@@ -1,6 +1,6 @@
 import divider from "../../assets/images/divider.svg";
 
-import { Box, Center, Flex, Image, Link, Text } from "@chakra-ui/react";
+import { Box, Center, Flex, Image, Link } from "@chakra-ui/react";
 
 export default function Footer() {
   return (
@@ -47,7 +47,7 @@ export default function Footer() {
           color="whiteAlpha.900"
           cursor="pointer"
         >
-          Projetos
+          Projetos (FATEC)
         </Link>
 
         <Link

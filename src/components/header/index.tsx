@@ -31,7 +31,7 @@ export default function Header() {
         </Link>
 
         <Link cursor="pointer" href="#projects" _hover={{ fontWeight: "bold" }}>
-          Projetos
+          Projetos (FATEC)
         </Link>
 
         <Link cursor="pointer" href="#start" fontWeight="bold">
@@ -96,7 +96,7 @@ export default function Header() {
                 href="#projects"
                 _hover={{ fontWeight: "bold" }}
               >
-                Projetos
+                Projetos (FATEC)
               </Link>
             </MenuItem>
 
