@@ -86,7 +86,7 @@ export default function Header() {
                 href="#aboutMe"
                 _hover={{ fontWeight: "bold" }}
               >
-                + Sobre mim
+                Sobre mim
               </Link>
             </MenuItem>
 

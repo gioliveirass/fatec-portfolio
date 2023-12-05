@@ -12,7 +12,11 @@ export default function Projects() {
       gap="2rem"
       id="projects"
     >
-      <Text variant="sectionTitle">Projetos</Text>
+      <Text variant="sectionTitle">
+        Aprendizagem por Projetos Integradores (API)
+      </Text>
+
+      <Text>FATEC São José dos Campos</Text>
 
       <Carousel width="60%" cards={cards} />
     </Center>
