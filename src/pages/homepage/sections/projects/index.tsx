@@ -11,6 +11,7 @@ export default function Projects() {
       flexDir="column"
       gap="2rem"
       id="projects"
+      p="2rem"
     >
       <Text variant="sectionTitle">
         Aprendizagem por Projetos Integradores (API)

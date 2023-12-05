@@ -11,6 +11,7 @@ export default function Services() {
       flexDir="column"
       gap="2rem"
       id="services"
+      p="2rem"
     >
       <Text variant="sectionTitle">Serviços</Text>
 
